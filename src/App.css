@@ -1,0 +1,24 @@
+.card-group{
+    display: flex;
+    flex-wrap: wrap;
+}
+h1{
+    text-align: center;
+    background-color: rgb(39, 52, 170);
+    color: red;
+    height: auto;
+    margin-top: 0;
+    padding: auto;
+    text-shadow: 1px 1px 3px rgb(255, 255, 255);
+}
+.newmovie{
+    background-color: rgb(190, 190, 255);
+    width:fit-content;
+    text-align: right;
+    position: relative;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 1px blue solid;
+    border-radius: 5px;
+    padding: 10px;
+}

@@ -1,0 +1,34 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    background-color: rgb(212, 212, 212);
+    height: 300px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.titleCard {
+    text-align: center;
+    font-style: oblique;
+}
+.ratingCard {
+    font-size: small;
+    margin: 0;
+    font-size: large;
+    color: rgb(0, 4, 255);
+}
+.photoCard {
+    border: 1px blue solid;
+    height: 170px;
+    margin-top: 5px;
+}
+.spanFooterCard {
+font-size: smaller;
+}
+.subtitleCard{
+    font-size: smaller;
+}
