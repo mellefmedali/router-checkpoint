@@ -1,4 +1,3 @@
-import { movieList } from "./MovieList";
 import MovieCard from "./MovieCard";
 import { useState } from "react";
 import "./Filter.css"

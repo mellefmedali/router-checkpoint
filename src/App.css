@@ -5,7 +5,7 @@
 h1{
     text-align: center;
     background-color: rgb(39, 52, 170);
-    color: red;
+    color: rgb(255, 255, 255);
     height: auto;
     margin-top: 0;
     padding: auto;
@@ -21,4 +21,16 @@ h1{
     border: 1px blue solid;
     border-radius: 5px;
     padding: 10px;
+}
+.navbar{
+    text-align: center;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.navbar button {
+    height: 30px;
+    margin: 5px 10px;
+    border-radius: 5px; 
+    background-color: lightskyblue;
 }
