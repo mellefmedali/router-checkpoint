@@ -39,7 +39,7 @@ const Filter = (props) => {
                         x => x.title.toLocaleLowerCase().includes(titleSearch.toLocaleLowerCase())
                     ).filter(
                         e => e.rating >= ratingSearch).map(
-                            v => <MovieCard keyNumber={v.id} posterURL={v.posterURL} title={v.title} description={v.description} rating={v.rating} />)
+                            v => <MovieCard key={v.id} keyNumber={v.id} posterURL={v.posterURL} title={v.title} description={v.description} rating={v.rating} />)
                 }
             </div>
         </div>

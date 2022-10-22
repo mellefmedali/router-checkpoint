@@ -40,6 +40,7 @@ function App() {
           </div>
         } />
         <Route path="/:movieid" element={<MovieDetails  list={listOfMovies} />} />
+        <Route path="/*" element={<div>404 .... NOT FOUND</div>} />
       </Routes>
     </div>
   );
