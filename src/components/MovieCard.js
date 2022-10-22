@@ -12,13 +12,12 @@ export default function MovieCard(props) {
             <Card className="card" onClick={() => { navigate(`/${props.keyNumber}`) }} >
                 <Card.Img className="photoCard" variant="top" src={props.posterURL} />
                 <Card.Body>
-                    <Card.Title className="titleCard">{props.title}</Card.Title>
+                    <Card.Title className="titleCard">{props.keyNumber} - {props.title}</Card.Title>
                     <Card.Text className="subtitleCard">{props.description}</Card.Text>
                 </Card.Body>
                 <Card.Footer>
                     <span className="spanFooterCard">Rating : </span><span className="ratingCard">{props.rating}</span>/10
                 </Card.Footer>
-                {/* <Button >more details</Button> */}
             </Card>
         </>
     )

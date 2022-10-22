@@ -14,6 +14,7 @@ function App() {
   const handleList = (newMovie) => {
     setList(previous => [newMovie, ...previous]
     )
+    console.log(movieList)
   }
   const lastKey = listOfMovies.length
   const {movieid} = useParams()
